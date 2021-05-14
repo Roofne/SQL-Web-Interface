@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test BDD</title>
+    <link rel="stylesheet" href="test_bdd.css">
+  </head>
+  <body>
+    <div class="title">
+      Test Connection BDD
+    </div>
+    <div class="connection-frame">
+      <form class="" action="test_bdd.php" method="get">
+        <div class="form-row">
+          <label for="driver">Enter host of your database: </label>
+          <select id="driver" name="driver">
+            <option value="mysql">MySQL</option>
+            <option value="pgsql">PostgreSQL</option>
+            <option value="oci">Oracle</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="host">Enter the driver of your database: </label>
+          <input type="text" name="host" id="host">
+        </div>
+        <div class="form-row">
+          <label for="name">Enter name of your database: </label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-row">
+          <label for="id">Enter your id : </label>
+          <input type="text" name="id" id="id">
+        </div>
+        <div class="form-row">
+          <label for="mdp">Enter your password : </label>
+          <input type="text" name="mdp" id="mdp">
+        </div>
+
+        <input type="submit" name="submit-button" id="submit-button" value="Envoyer">
+      </form>
+    </div>
+  </body>
+</html>
