@@ -3,7 +3,7 @@
 Release Notes
 
 v0.2 :
-- architecture MVC implenté
+- architecture MVC implémenté
 - stockage infos connection dans un fichier
 - gestion différent type requète (SELECT, UPDATE, INSERT, ...)
 - fonction affichage console
