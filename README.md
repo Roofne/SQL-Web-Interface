@@ -5,7 +5,8 @@ Release Notes
 v0.3 :
 - modification du css
 - passage des données reçues du controlleur à la vue
-- gestion multiple requètes envoyées (0,1,plusieurs)
+- gestion multiple requètes envoyées (0,1,n)
+- mise en forme requète
 
 v0.2 :
 - architecture MVC implémenté
